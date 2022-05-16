@@ -1,5 +1,6 @@
 package examples;
 
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,6 +13,10 @@ public class LookaroundExpressionsPartTwo {
 
         System.out.println("\n\nfindAllPhoneNumbersInSingleFormat()");
         findAllPhoneNumbersInSingleFormat("Hey Kile, here is my phones: +380687205039, 0964490664, 380 96 503 85 93 and 68 722 50 46");
+
+        System.out.println("\n splitCamelCase():(?<=[a-z])(?=[A-Z])");
+        System.out.println("HelloWorld -> " + Arrays.toString(splitCamelCase("HelloWorld")));
+        System.out.println("camelCaseText -> " + Arrays.toString(splitCamelCase("camelCaseText")));
     }
 
     public static void captureAllPrices(String text) {
@@ -30,5 +35,9 @@ public class LookaroundExpressionsPartTwo {
         while (matcher.find()) {
             System.out.println(matcher.group(1).replaceAll("[ ]", ""));
         }
+    }
+
+    public static String[] splitCamelCase(String str) {
+        return str.split("(?<=[a-z])(?=[A-Z])");
     }
 }
