@@ -24,7 +24,7 @@ public class LookaroundExpressionsPartTwo {
     }
 
     public static void findAllPhoneNumbersInSingleFormat(String text) {
-        Pattern pattern = Pattern.compile("(?<=(?:[ +]380)|[0 ]|^)[ ]?((?:[ ]?\\d){9})(?=$|\\D{2})");
+        Pattern pattern = Pattern.compile("(?<=(?:[ +]380)|[0 ]|^)[ ]?((?:[ ]?\\d){9})(?=$|\\D$|\\D{2})");
         Matcher matcher = pattern.matcher(text);
         System.out.println("TEXT: " + text + "\nWe found next phone number(s):");
         while (matcher.find()) {
