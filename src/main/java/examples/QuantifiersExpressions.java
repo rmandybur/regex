@@ -29,7 +29,7 @@ public class QuantifiersExpressions {
 
         System.out.println("\nisShortName():'\\w{3,6}'");
         System.out.println("'Jake' -> " + isShortName("Jake"));
-        System.out.println("'lee' -> " + isShortName("Lee"));
+        System.out.println("'Lee' -> " + isShortName("Lee"));
     }
 
     private static boolean isEmptyOrNumeric(String text) {
