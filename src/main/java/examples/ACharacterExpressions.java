@@ -1,6 +1,6 @@
 package examples;
 
-public class CharacterExpressions {
+public class ACharacterExpressions {
     public static void main(String[] args) {
         System.out.println("Character classes");
         System.out.println("\n[ace]");

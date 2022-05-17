@@ -3,7 +3,7 @@ package examples;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class InlineModifiers {
+public class FInlineModifiers {
 
     public static void main(String[] args) {
         System.out.println("\nisCaseInsensitiveMatch():'(?i)'");

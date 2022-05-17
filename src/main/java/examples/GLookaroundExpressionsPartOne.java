@@ -1,6 +1,6 @@
 package examples;
 
-public class LookaroundExpressionsPartOne {
+public class GLookaroundExpressionsPartOne {
 
     public static void main(String[] args) {
         String text = "Candy is delicious or disgusting Candy is delicious or disgusting Candy " +

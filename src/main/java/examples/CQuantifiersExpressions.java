@@ -1,6 +1,6 @@
 package examples;
 
-public class QuantifiersExpressions {
+public class CQuantifiersExpressions {
 
     public static void main(String[] args) {
         System.out.println("\nisEmptyOrNumeric():'\\d*'");

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class LookaroundExpressionsPartTwo {
+public class HLookaroundExpressionsPartTwo {
 
     public static void main(String[] args) {
         System.out.println("captureAllPrices()");

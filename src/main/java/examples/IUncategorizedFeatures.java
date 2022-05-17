@@ -1,6 +1,6 @@
 package examples;
 
-public class UncategorizedFeatures {
+public class IUncategorizedFeatures {
 
     public static void main(String[] args) {
         System.out.println("\nisContainDotPlus():'\\w*\\Q.+\\E\\d*'");

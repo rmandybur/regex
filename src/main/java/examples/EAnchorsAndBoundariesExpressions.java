@@ -2,7 +2,7 @@ package examples;
 
 import java.util.Arrays;
 
-public class AnchorsAndBoundariesExpressions {
+public class EAnchorsAndBoundariesExpressions {
 
     public static void main(String[] args) {
         System.out.println("\nisCherCity():'^Чер\\p{L}+'");

@@ -1,6 +1,6 @@
 package examples;
 
-public class PredefinedCharacterExpressions {
+public class BPredefinedCharacterExpressions {
     public static void main(String[] args) {
         System.out.println("isADigit():'\\d'");
         System.out.println("'6' -> " + isADigit("6"));
